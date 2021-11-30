@@ -34,7 +34,7 @@ public class MainActivity2 extends AppCompatActivity {
             if(C.moveToFirst())
             {
                 do{
-                    if(C.getString(2).equals("Nulo"))
+                    if(C.getString(1).equals("Blanco"))
                     {
                         TotalBlancos++;
                     }
@@ -43,11 +43,11 @@ public class MainActivity2 extends AppCompatActivity {
                     {
                         TotalNulos++;
                     }
-                    if(C.getString(2).equals("Gabriel Boric"))
+                    if(C.getString(3).equals("Gabriel Boric"))
                     {
                         TotalBoric++;
                     }
-                    if(C.getString(2).equals("Jose Antonio Kast"))
+                    if(C.getString(4).equals("Jose Antonio Kast"))
                     {
                         TotalKast++;
                     }
